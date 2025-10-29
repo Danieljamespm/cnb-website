@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
 @import "tailwindcss";
 
+
+/* gold color: #cb9e03 */
+
 @theme {
     --font-slabo: "Slabo 13px", sans-serif;
     --color-gold: #cb9e03;
@@ -8,4 +11,3 @@
     --background-image-logo: url('/images/logo.png');
 }
 
-/* gold color: #cb9e03 */
