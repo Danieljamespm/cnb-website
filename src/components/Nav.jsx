@@ -11,15 +11,16 @@ const Nav = () => {
 
 
     return (
-        <nav className="relative h-32 bg-black text-white border-b-amber-400 border-b-2">
+
+        <nav className="fixed h-32 w-full z-40 bg-transparent text-white border-b-amber-400 border-b-2">
             <div className="flex items-center justify-between h-full px-8">
                 {/* Logo */}
                 <div className="relative">
-                    <img src="/images/logo.png" alt="Logo" className="w-32 h-32 object-contain -mb-6 z-10" />
+                    <img src="/images/logo.png" alt="Logo" className="w-36 h-36 object-contain -mb-6 z-10" />
                 </div>
 
                 {/* Desktop menu */}
-                <ul className="hidden lg:flex space-x-8 font-slabo font-bold text-gold">
+                <ul className="hidden lg:flex space-x-8 font-slabo font-bold text-gold text-xl">
                     <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">Home</a></li>
                     <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">Menu</a></li>
                     <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">History</a></li>
@@ -48,6 +49,9 @@ const Nav = () => {
                 </ul>
             )}
         </nav>
+
+
+
     )
 }
 
