@@ -3,8 +3,9 @@
 
 @theme {
     --font-slabo: "Slabo 13px", sans-serif;
-
     --color-gold: #cb9e03;
+
+    --background-image-logo: url('/images/logo.png');
 }
 
 /* gold color: #cb9e03 */
