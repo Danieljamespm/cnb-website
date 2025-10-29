@@ -5,7 +5,10 @@ const Hero = () => {
         <div className='h-[800px] bg-[url(/images/beer_tap.jpg)] bg-cover bg-center flex justify-center items-center flex-col '>
             <div className="absolute inset-0 bg-black/40"></div>
 
-            <p className='text-gold z-10 font-slabo text-4xl lg:text-6xl'>YE OLDE COCK' N BULL</p>
+            <h1 className='text-gold z-10 font-slabo text-4xl lg:text-6xl'>YE OLDE COCK' N BULL</h1>
+            <p className='text-white font-slabo text-2xl lg:text-4xl z-10 pt-6'>Live Music, Local Vibes</p>
+            <div className='border-amber-400 w-[50%] border-1'></div>
+
         </div>
     )
 }
