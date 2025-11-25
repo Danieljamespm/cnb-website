@@ -21,7 +21,7 @@ const Story = () => {
 
     return (
         <div className='h-[800px] font-slabo flex items-center flex-col bg-black '>
-            <h1 className='text-7xl pt-10 pb-20 text-gold'>Our Story</h1>
+            <h1 className='text-7xl pt-10 pb-20 text-gold'>OUR STORY</h1>
             <div className='bg-black flex justify-around items-center flex-col md:flex-row md:mr-10 md:ml-10'>
                 <motion.p
                     className='md:w-[30%] text-gold text-3xl md:text-5xl text-center bg-black w-[90%] pb-10'
@@ -55,7 +55,7 @@ const Story = () => {
                 />
                 <div className='w-[90%] flex flex-col items-center pt-10'>
                     <motion.p
-                        className='w-[90%] text-gold text-lg font-bold'
+                        className='w-[90%] text-gold text-lg md:text-2xl font-bold'
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
@@ -63,7 +63,7 @@ const Story = () => {
                     >
                         Our reputation as the area’s premier venue to enjoy and support the talented local music scene is the result of our commitment to provide only the very best in live entertainment. On Friday’s, we get your weekend started early by featuring legendary acoustic duo John Barile and Bobby May from 6-9:00, followed each week by a full band to rock the party until close.</motion.p>
                     <motion.p
-                        className='w-[90%] text-gold text-lg font-bold pt-8'
+                        className='w-[90%] text-gold text-lg md:text-2xl font-bold pt-8'
                         initial="hidden"
                         whileInView="visible"
                         viewport={{ once: true }}
