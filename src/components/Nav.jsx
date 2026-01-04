@@ -23,7 +23,7 @@ const Nav = () => {
                 <ul className="hidden lg:flex space-x-8 font-slabo font-bold text-gold text-xl">
                     <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">Home</a></li>
                     <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">Menu</a></li>
-                    <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">Our Story</a></li>
+                    <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#story">Our Story</a></li>
                     <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">Entertainment</a></li>
                     <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">Contact Us</a></li>
                     <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">Beer List</a></li>
@@ -41,7 +41,7 @@ const Nav = () => {
                 <ul className="lg:hidden bg-black text-gold flex flex-col items-center space-y-4 py-4 font-slabo font-bold">
                     <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">Home</a></li>
                     <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">Menu</a></li>
-                    <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">Our Story</a></li>
+                    <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#story">Our Story</a></li>
                     <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">Entertainment</a></li>
                     <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">Contact Us</a></li>
                     <li className="hover:text-white transition-colors duration-500 ease-in-out"><a href="#">Beer List</a></li>
