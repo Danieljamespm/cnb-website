@@ -12,7 +12,7 @@ const Nav = () => {
 
     return (
 
-        <nav className="fixed h-32 w-full z-40 bg-black/60 text-white border-b-amber-400 border-b-2">
+        <nav className="fixed h-32 w-full z-40 bg-black/60 text-white border-b-gold border-b-2">
             <div className="flex items-center justify-between h-full px-8">
                 {/* Logo */}
                 <div className="relative">

@@ -20,9 +20,9 @@ const Story = () => {
     const yFast = useTransform(scrollY, [0, 800], [0, -200]);
 
     return (
-        <div id='story' className='h-[800px] font-slabo flex items-center flex-col bg-black '>
+        <div id='story' className='min-h-[800px] font-slabo flex items-center flex-col bg-black '>
             <h1 className='text-6xl md:text-7xl pt-10 text-gold pb-4'>OUR STORY</h1>
-            <div className='border-amber-400 w-[50%] border-b-4 mb-20'></div>
+            <div className='border-gold w-[50%] border-b-4 mb-20'></div>
             <div className='bg-black flex justify-around items-center flex-col md:flex-row md:mr-10 md:ml-10'>
                 <motion.p
                     className='md:w-[30%] text-gold text-3xl md:text-5xl text-center bg-black w-[90%] pb-10'
